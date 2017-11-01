@@ -7,5 +7,9 @@
             header("Location: index.php?"); die();
         }
     }
-    header("Location: login.php?msg=Incorrect E-mail or password."); die();
+    if(isset($logout)){
+        header("Location: login.php?msg="); die();
+    } else{
+        header("Location: login.php?msg=Incorrect E-mail or password."); die();
+    }
 ?>
