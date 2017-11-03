@@ -1,3 +1,4 @@
+<?php session_start();?>
 <?php include("include/header.php");?>
 <div class="row">
     <div class="col-sm-10 col-sm-offset-2"><h1>Please login to enjoy our math game.</h1></div>
@@ -24,7 +25,7 @@
         </div>
     </div>
     <div class="col-lg-12 row">
-        <div class="col-sm-2 col-sm-offset-2 row">
+        <div class="col-sm-2 col-sm-offset-3 row">
             <button type="submit" class="btn btn-default">Login</button>
         </div>
     </div>

@@ -1,6 +1,6 @@
+<?php session_start();?>
 <!DOCTYPE HTML>
 <html lang="en">
-
 <head>
 	<title>Math Game</title>
     <link href="style/bootstrap.min.css" rel="stylesheet" media="screen">

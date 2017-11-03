@@ -1,5 +1,8 @@
+<?php session_start();?>
 <?php 
-session_start();
+if(!isset($_SESSION["login"])){
+    header("Location: login.php?msg=Please login first."); die();
+}
 include("include/header.php");
 extract($_POST);
 extract($_GET);
