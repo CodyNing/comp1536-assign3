@@ -1,4 +1,3 @@
-<?php session_start();?>
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
@@ -7,6 +6,7 @@
     <script src="js/jquery-2.1.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style/style.css" type="text/css" />
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0"/>
     <meta charset="utf-8" />
 </head>
 <body>
